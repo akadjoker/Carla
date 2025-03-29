@@ -1,0 +1,43 @@
+{
+    "carConfig": {
+        "motorForce": 1500.0,
+        "brakeForce": 3000.0,
+        "maxSteerAngle": 30.0,
+        "steeringSpeed": 10.0,
+        "useAutomaticGearbox": true,
+        "gearRatios": [
+            3.5,
+            2.5,
+            1.7999999523162842,
+            1.399999976158142,
+            1.100000023841858,
+            0.8500000238418579
+        ],
+        "reverseGearRatio": 3.5,
+        "downshiftRPM": 1500.0,
+        "upshiftRPM": 4000.0,
+        "maxRPM": 6000.0,
+        "idleRPM": 800.0,
+        "useAntiRollBars": true,
+        "antiRollForce": 5000.0,
+        "useTractionControl": true,
+        "tractionSlipLimit": 0.20000000298023225
+    },
+    "wheelConfig": {
+        "suspensionDistance": 0.20000000298023225,
+        "suspensionSpring": 35000.0,
+        "suspensionDamper": 4500.0,
+        "suspensionTargetPosition": 0.5,
+        "forwardFriction": 1.5,
+        "sidewaysFriction": 1.5,
+        "forwardExtremumSlip": 0.4000000059604645,
+        "sidewaysExtremumSlip": 0.4000000059604645,
+        "forwardAsymptoteSlip": 0.800000011920929,
+        "sidewaysAsymptoteSlip": 0.800000011920929,
+        "forwardStiffness": 1.0,
+        "sidewaysStiffness": 1.0,
+        "wheelMass": 20.0,
+        "wheelRadius": 0.3499999940395355,
+        "wheelDampingRate": 0.25
+    }
+}

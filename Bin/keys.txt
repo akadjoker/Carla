@@ -1,0 +1,28 @@
+
+System:
+F1 Manual Driver
+F2 Server Driver
+F3 Autopilot 
+F4 Reset Car by watypont 0
+Tab next Rout
+
+
+DataSet:
+F5 New Data Set session
+F6 Auto collect
+F8 Collect Data
+
+
+
+Car:
+
+E Gear Up
+Q Gear Down
+R Reverse
+
+Applicatio:
+F12 Exit 
+
+
+docker run -u $(id -u):$(id -g)    -it   -v /home/djoker/Carla/Bin:/tf/scripts   tensorflow/tensorflow:2.10.0-gpu   bash
+
